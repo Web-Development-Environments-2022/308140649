@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+
 <link rel="stylesheet" type="text/css" href="style.css" />
+<title> מזל וסולימן גידניאן ז"ל</title>
+<script src="https://cdn.tiny.cloud/1/efza0n8q8c937c08miodpb1jdp2gu8wgiqb78b7oymk5ey2h/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+  tinymce.init({
+    selector: "#message",
+    plugins: "emoticons",
+    toolbar: "emoticons",
+    toolbar_location: "bottom",
+    menubar: false
+  });
+  </script>
+
 </head>
 <body>
+
+
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <div class="bar-img">
+    <a href="#menu">
+      <img class="logo" src="img/logo.jpg">
+    </a>
+  </div>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+
+
 </div>
-		  
+
+<br/><br/><br/><br/><br/>
+<h1> אתר לזיכרם של מזל וסולימן ז"ל</h1>
+<img src="image2.png" alt="welcome-pic" class="main-img">
+<br/>
+
+
+
 <section id="about" class="section">
 <br/>
 <br/>
@@ -21,17 +53,20 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 about me
+<h2>
+  מזל התחתנה בשנת 1963 בגיל 16, בעוד שסולימן היה בן 23. 
+  שנה לאחר חתונתם, הוריו של סולימן נפטרו ומזל גידלה את שלושת אחיו.
+  במהלך השנים נולדו להם תשעה ילדים: פרידה, דוד, משה, אלברט, פרשתה, דניאל, ורד, הרצל ויוסף. 
+יוסף נפטר עוד שהיו באירן. שהיה בן 4 טבע בבריכה אצל אבא של סולימון
+בשנת 1979, עקב המהפכה האירונית שהביאה לגירושו של השאה ועלייתו של ח'ומייני, מזל וסולימן עלו ארצה, לארץ ישראל.
+סולימן היה יצרן בדים ומזל עקרת בית, לאחר גידול הילדים עזרה בגידול הנכדים. 
+הם נהגו כל בוקר להתפלל בבית הכנסת, והרבו בגמילות חסידים ותרומה לאביונים בסתר. 
+רבים זוכרים את סבתי בזכות המטעמים שלה ובעזרתה לאחר. סבי זכור בזכות צניעותו והענווה. 
+הדמות שהשפיעה עליהם היה המלך שאה, הם הערצו אותו וסיפרו על אודותיו: על כמה שאהב את היהודים וסייע להם. 
+הם מאוד אהבו לטייל בחוף הים בשקיעות ותמיד ביקשו מהנכדים להצטרף אליהם.
+כהיום יש להם 28 נכדים ו-31 ניינים שממשיכים את המסורת שלהם
+</h2>
 <br/>
 <br/>
 <br/>
@@ -43,20 +78,19 @@ about me
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 my photos
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<img src="image1.png"  class="main-img">
+<br/>
+<img src="image3.png" class="main-img">
+
+<br/>
+<img src="image4.png" alt="welcome-pic" class="main-img">
 <br/>
 </section>
 
@@ -67,17 +101,12 @@ my photos
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 my playlist
+<br/>
+<br/>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/11v_q8bnK6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br/>
 <br/>
 <br/>
@@ -103,7 +132,10 @@ my playlist
 give me a like
 <br/>
 <br/>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v13.0" nonce="eWIfOf7u"></script><br/>
 <br/>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
 </section>
 
 <section id="qrcoder" class="section">
@@ -126,6 +158,7 @@ give me a like
 scan my code
 <br/>
 <br/>
+<img class="qr" src="qr.png">
 <br/>
 </section>
 
@@ -141,6 +174,7 @@ scan my code
 <br/>
 <br/>
 <br/>
+
 <br/>
 <br/>
 <br/>
@@ -149,6 +183,64 @@ scan my code
 ans
 <br/>
 <br/>
+ <h2>Web 1.0/2.0/3.0 ההבדלים בין </h2>
+<br/><br/>
+<table border="1" align="center" cellpadding="10" cellspacing="0" boardercolor="#111111" width="80%" >
+
+  <td></td>
+  <td> Web 1.0</td>
+  <td> Web 2.0</td>
+  <td> Web 3.0</td>
+
+<tr>
+  <th>תוכן</th>
+  <td>הגירסה הינה לקריאה בלבד</td>
+  <td>התוכן שמוצג ניתן לעריכה ולקריאה</td>
+  <td>בנוסף לקריאה ולעריכה ניתן להתאים את התוכן באופן אישי למשתמש, הוא שואף לפרטיות</td>
+</tr>
+<tr>
+  <th>חיפוש</th>
+  <td>החיפוש הינו מהיר, אך לא תמיד מחזיר את התוצאות המדוייקות ביותר</td>
+  <td>מכיל תגיות, המנוע חיפוש מחזיר את התגיות הרלוונטיות בצירוף התוכן </td>
+  <td>תוצאות החיפוש מותאם אישית יותר למשתמש, על ידי מערכות המלצה, בינה מלאכותית וכו'</td>
+</tr>
+<tr>
+  <th>מטרה</th>
+  <td>לאפשר מידע באופן מקוון-נבנה בעיקר עבור חברות</td>
+  <td>המטרה לאפשר אינטרקציה חברתית-נבנה עבור קהילות</td>
+  <td> את עניין הקישוריות באינטרנט, השיתוף מידע וידע-נבנה עבור יחידים</td>
+</tr>
+<!-- <tr>
+  <td>שאילתא-"תופעות לוואי של תרופות"</td>
+  <td> רק אתרים שבעליהם תייגו את השאילתא </td>
+  <td></td>
+  <td> נקבל מידע עבור תרופות אשר אדם חיפש בעבר על המחלה</td>
+
+</tr> -->
+</table>
+
+<br/>
+<br/>
+<br/>
+<h2>  דוגמא לשאילתא</h2>
+
+<table border="1" align="center" cellpadding="10" cellspacing="0" boardercolor="#111111" width="80%">
+  <th>שאילתא</th>
+  <th> Web 1.0</th>
+  <th> Web 2.0</th>
+  <th> Web 3.0</th>
+  <tr>
+    <td>"תופעות לוואי של תרופות"</td>
+    <td> יש צורך להכניס את הכתובת האתר הרצויה</td>
+    <td>  רק אתרים שבעליהם תייגו את השאילתא נקבל את התוצאות הללו</td>
+    <td> נקבל מידע עבור תרופות אשר אדם חיפש בעבר על המחלה מותאמת אישית למשתמש</td>
+
+  </tr>
+
+</table>
+
+
+
 <br/>
 </section>
 
@@ -171,23 +263,50 @@ ans
 <br/>
 contact me
 <br/>
-<br/>
-<br/>
+<div class="container">
+  <div style="text-align:center"></div>
+  <div class="row">
+    <!-- <div class="column">
+      <img src="/w3images/map.jpg" style="width:100%">
+    </div> -->
+    <center>
+      <form class="column" action="mailto:inbarza@post.bgu.ac.il">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="fname" name="email" placeholder="Your email..">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="mubject" placeholder="Write to us.." style="height:170px"  class="form-control"data-emoji-input="unicode"></textarea>
+
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </center>
+  </div>
+</div>
 </section>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+  <script type="text/javascript">
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
   });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+
+
+  </script>
+  <script type="text/javascript">
+  $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+  });​
+  </script>
 </body>
 </html>
